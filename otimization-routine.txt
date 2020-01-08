@@ -1,0 +1,6 @@
+Otimização de Front End
+	-Diminuir Tamanho de arquivos
+ 		-texto -gulp minify
+	-Diminuir Tamanho de imagens
+		-imagens comuns bit map -excluir inf e imagens(jpegtran, )
+		-imagens svg - (svgOMG) Ferramentas de linha de comando para automatizar
