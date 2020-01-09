@@ -4,6 +4,8 @@ Normalmente baixa 6 arquivos simultaneos
 Sempre ter de um lado -Arquivos originais
 do outro lado -Arquivos de producao
 
+(App engine e Gulp - ferramentas usadas)
+
 Otimização de Arquivos
 	-Diminuir Tamanho de arquivos
  		-texto -gulp minify (minificação)
@@ -15,9 +17,22 @@ Concatenação de Aquivos
 	-arquivos de texto
 	-automação por meio de comentarios
 		-ferramenta gulp useref
-	-imagens virando sprites (npm/gulp spritesmith)
+	-imagens virando sprites 
+		-png (npm/gulp spritesmith)
+		-svg (grunt gulp/ svg4everybody)
+
+Recursos inLine
+	-Deixar alguns dos scripts no HTML, poupando requests
+
+Criação de novos HostsName (subdominios)
+	-Serviços web geralmente te dão
+
+Cache Control
+	-nginx
+	-versionamento de arquivos (gulp)
 
 Testes
+	-nginx (server HTTP)
 	-Google App Engine SDK (subir site pra nuvem)
 	-Google pageSpeed
 	-webPageTest
