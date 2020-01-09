@@ -1,6 +1,23 @@
-Otimização de Front End
+Um navegador baixa todos os arquivos do seu site, antes de renderizar
+Normalmente baixa 6 arquivos simultaneos
+
+Sempre ter de um lado -Arquivos originais
+do outro lado -Arquivos de producao
+
+Otimização de Arquivos
 	-Diminuir Tamanho de arquivos
- 		-texto -gulp minify
+ 		-texto -gulp minify (minificação)
 	-Diminuir Tamanho de imagens
-		-imagens comuns bit map -excluir inf e imagens(jpegtran, )
+		-imagens comuns bit map -excluir inf e imagens (jpegtran, )
 		-imagens svg - (svgOMG) Ferramentas de linha de comando para automatizar
+
+Concatenação de Aquivos
+	-arquivos de texto
+	-automação por meio de comentarios
+		-ferramenta gulp useref
+	-imagens virando sprites (npm/gulp spritesmith)
+
+Testes
+	-Google App Engine SDK (subir site pra nuvem)
+	-Google pageSpeed
+	-webPageTest
