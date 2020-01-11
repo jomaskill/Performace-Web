@@ -31,6 +31,10 @@ Cache Control
 	-nginx
 	-versionamento de arquivos (gulp)
 
+
+Critical Path
+	-Priorização de carregamentos da estruturas da página
+
 Testes
 	-nginx (server HTTP)
 	-Google App Engine SDK (subir site pra nuvem)
