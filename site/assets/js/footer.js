@@ -1,4 +1,7 @@
-window.addEventListener('load', function() {
+
+//Função setTimeout executa a função apos um tempo dado
+setTimeout(function() {
+
 
 	var newsletterButton = document.querySelector('.footer-newsletter-button');
 	var inputEmail = document.querySelector('.footer-newsletter-input');
@@ -51,4 +54,4 @@ window.addEventListener('load', function() {
 
 	}
 
-});
+}, 1000);

@@ -1,3 +1,6 @@
+
+//Função que é executada automaticamente
+
 (function() {  
    var titulo = document.querySelector('.header-menu-titulo');
 	var menu = document.querySelector('.header-menu');
